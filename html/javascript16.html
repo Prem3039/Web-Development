@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            color: azure;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one" class="new"></div>
+    <div id="two" class="new"></div>
+    <div id="three" class="new"three></div>
+
+    <script>
+        $(Document).ready (function () {
+        $("one").fadeIn(),$("two").fadeIn(3000),$("three").fadeIn("slow")
+        })
+    </script>
+    <button>
+        new
+
+    </button>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            height: 100px;
+            background-color: black;
+        }
+        .m1{
+            height: 100px;
+            background-color: brown;
+        }
+        .footer{
+            height: 100px;
+            background-color: gray;
+        }
+        /* ++++++++++++++++++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++++++++++++++ */
+        @media screen and (max-width:480px) {
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .head{
+            height: 100px;
+            background-color: black;
+        }
+        .m1{
+            height: 100px;
+            background-color: brown;
+        }
+        .footer{
+            height: 100px;
+            background-color: gray;
+        }
+        }
+        /* +++++++++++++++++++++++++++++++=TAB========================================= */
+        @media (min-width:481px) and (max-width:768px){
+           
+        .head{
+            height: 100px;
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .m1{
+            height: 100px;
+            background-color: brown;
+
+        #nu1{
+            width: 100%;
+            background-color: yellow;
+        }
+        #nu2{
+            width: 33.33%;
+            background-color: rgb(41, 16, 100);
+        }
+        #nu3{
+            width: 33.33%;
+            background-color: rgb(58, 58, 3);
+        }
+        #nu4{
+            width: 33.33%;
+            background-color: rgb(0, 157, 255);
+        }
+
+        .footer{
+            height: 100px;
+            background-color: gray;
+        }
+    }
+        /* =============================================pc================================= */
+        @media (min-width:769px) and ( max-width:1024px){
+            
+        .head{
+            height: 100px;
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .m1{
+            height: 100px;
+            background-color: brown;
+        }
+        #nu1{
+            width: 100%;
+            background-color: yellow;
+        }
+        #nu2{
+            width: 33.33%;
+            background-color: rgb(41, 16, 100);
+        }
+        #nu3{
+            width: 33.33%;
+            background-color: rgb(58, 58, 3);
+        }
+        #nu4{
+            width: 33.33%;
+            background-color: rgb(0, 157, 255);
+        }
+
+        .footer{
+            height: 100px;
+            background-color: gray;
+        }
+    }
+           
+          </style>
+</head>
+<body>
+    <div class="head"></div>
+    <div class="main">
+        <div class="m1" id="nu1">1</div>
+        <div class="m1" id="nu2">2</div>
+        <div class="m1" id="nu3">3</div>
+        <div class="m1" id="nu4">4</div>
+    </div>
+</body>
+</html>

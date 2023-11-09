@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: blanchedalmond;
+            color:black;
+            text-shadow: 2px;
+            text-decoration: dotted ;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        
+    <table>
+        <tr>
+            <td>
+                2000
+            </td>
+            <td><input type="number" name="" id="n1" onkeyup="a()"></td>
+            <td id="r1">0</td>
+        </tr>
+        <tr>
+            <td>
+                500
+            </td>
+            <td><input type="number" name="" id="n2" onkeyup="a()"></td>
+            <td id="r2">0</td>
+        </tr>
+        <tr>
+            <td>
+                200
+            </td>
+            <td><input type="number" name="" id="n3" onkeyup="a()"></td>
+            <td id="r3">0</td>
+        </tr>
+        <tr>
+            <td>
+                100
+            </td>
+            <td><input type="number" name="" id="n4" onkeyup="a()"></td>
+            <td id="r4">0</td>
+            </tr>
+            <tr>
+                <td>
+                    50
+                </td>
+                <td><input type="number" name="" id="n5" onkeyup="a()"></td>
+                <td id="r5">0</td>
+            </tr>
+            <tr>
+                <td>
+                    20
+                </td>
+                <td><input type="number" name="" id="n6" onkeyup="a()"></td>
+                <td id="r6">0</td>
+            </tr>
+            <tr>
+                <td>
+                  10
+                </td>
+                <td><input type="number" name="" id="n7" onkeyup="a()"></td>
+                <td id="r7">0</td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td></td>
+                <td id="total">0</td>
+            </tr>
+    </table></center>
+ <script>
+    function a(){
+        var n1=document.getElementById("n1").value
+        var r1=document.getElementById("r1").innerHTML=(2000*n1)
+        var n2=document.getElementById("n2").value
+        var r2=document.getElementById("r2").innerHTML=(500*n2)
+        var n3=document.getElementById("n3").value
+        var r3=document.getElementById("r3").innerHTML=(200*n3)
+        var n4=document.getElementById("n4").value
+        var r4=document.getElementById("r4").innerHTML=(100*n4)
+        var n5=document.getElementById("n5").value
+        var r5=document.getElementById("r5").innerHTML=(50*n5)
+        var n6=document.getElementById("n6").value
+        var r6=document.getElementById("r6").innerHTML=(20*n6)
+        var n7=document.getElementById("n7").value
+        var r7=document.getElementById("r7").innerHTML=(10*n7)
+        var total=document.getElementById("total").innerHTML=r1+r2+r3+r4+r5+r6+r7
+
+    }
+   </script> 
+</body>
+</html>

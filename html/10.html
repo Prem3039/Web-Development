@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading Screens</title>
+  <style>
+    .loading-screen {
+      width: 100px;
+      height: 10px;
+      background-color: #FF0000;
+      margin-bottom: 10px;
+      animation: 
+       2s infinite;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      
+
+    }
+  
+    .loading-screen:nth-child(2) {
+      background-color: #00FF00;
+      animation-delay: 1s;
+    }
+  
+    .loading-screen:nth-child(3) {
+      background-color: #0000FF;
+      animation-delay: 1s;
+    }
+  
+    .loading-screen:nth-child(4) {
+      background-color: #FFFF00;
+      animation-delay: 1s;
+    }
+  
+    .loading-screen:nth-child(5) {
+      background-color: #FF00FF;
+      animation-delay: 1s;
+    }
+  
+    .loading-screen:nth-child(6) {
+      background-color: #00FFFF;
+      animation-delay: 1s;
+    }
+  
+    @keyframes moveLeftToRight {
+      0% {
+        transform: translateX(-100px);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-screen">html </div>
+  <div class="loading-screen">css</div>
+  <div class="loading-screen">c</div>
+  <div class="loading-screen">c+</div>
+  <div class="loading-screen">c++</div>
+  <div class="loading-screen">python</div>
+</body>
+</html>

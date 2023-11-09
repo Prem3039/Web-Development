@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnj
+    
+    s.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        div{
+            height: 500px;
+        color: aliceblue;
+            background-color: aqua;
+            margin-top: 10px;
+        }
+        </style>
+</head>
+<body>
+    <div class="obe" id="one">1</div>
+    <div class="obe" id="two">2</div>
+    <script>
+        $(document).ready(function () {
+            $("one").click(function () {
+                $("two").slideToggle(3000)
+            })
+        })
+    </script>
+</body>
+</html>
